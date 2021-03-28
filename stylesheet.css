@@ -1,3 +1,130 @@
-.title {
-    color: #02ccba;
-  }
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Karla', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+
+/* Header by Isa */
+/* End Header */
+      
+/* Main by Ahim */
+.main-container {
+  width: 100%;
+  height: 1080px;
+}
+
+.main {
+  width: 100%;
+  height: 1100px;
+  text-align: center;
+}
+
+.main h1 {
+  opacity: 1;
+  font-size: 55px;
+  padding-bottom: 5px;
+  position: relative;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+}
+
+.main p {
+  opacity: 1;
+  font-size: 37px;
+  padding-bottom: 3px;
+  text-align: center;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+}
+
+.btn-wrapper {
+  text-align: right
+  z-index: 10;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+.signup {
+  background-color: black;
+    color:  white
+}
+
+@keyframes example {
+  0%   {background-image: url(https://image.freepik.com/free-vector/web-design-landing-page-template_52683-18357.jpg)}
+  25%  {background-image: url(https://image.freepik.com/free-vector/discount-templates_53876-81537.jpg)}
+  50%  {background-image: url(https://image.freepik.com/free-vector/sport-landing-page-with-motorcycle-photo_23-2148265331.jpg)}
+  75%  {background-image: url(https://image.freepik.com/free-vector/business-landing-page-template-with-photo_52683-20547.jpg)}
+  100% {background-image: url(https://image.freepik.com/free-vector/web-design-landing-page-template_52683-18357.jpg)}
+}
+
+.animation {
+  width: 100%;
+  height: 417px;
+  position: absolute;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+.overlap {
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+/* End Main */
+      
+/* Body by Rosi */
+/* End Body */
+      
+/* Footer by Wahyu */
+
+#footer{
+  width: 100%;
+  font-size:15px;
+  color: black;
+  text-align: center;
+  background: greenyellow;
+  clear: both;
+  padding: 2px;
+ }
+       #t{
+  width: 100%;
+  background-color: #003940;
+  clear: both;
+ }
+ #tk{
+  width:100%;
+  padding: 1%;
+ }
+ #k{
+  float: left;
+  width: 20%;
+  padding:1%;
+  color: #eeeeee;
+ }
+ 
+ .t{
+  padding: 5px;
+ }
+/* End Footer */
