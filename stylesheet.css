@@ -4,7 +4,7 @@
 
 body {
   margin: 0;
-  font-family: "Lucida Grande";
+  font-family: 'Karla', sans-serif;
 }
 
 a {
@@ -48,6 +48,16 @@ li {
 }
 /* End Header */
       
+/* Responsive by Sugi */
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 40px 20px;
+  display:none;
+}
+/* End Responsive */
+
 /* Main by Ahim */
 .main-container {
   width: 100%;
@@ -97,7 +107,7 @@ li {
 
 .signup {
   background-color: black;
-    color:  white
+    color:  white;
 }
 
 @keyframes example {
@@ -110,7 +120,7 @@ li {
 
 .animation {
   width: 100%;
-  height: 417px;
+  height: 410px;
   position: absolute;
   animation-name: example;
   animation-duration: 4s;
@@ -182,7 +192,6 @@ img {
 /* End Body */
       
 /* Footer by Wahyu */
-
 #footer{
   width: 100%;
   font-size:15px;
