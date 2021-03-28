@@ -95,6 +95,60 @@ a {
 /* End Main */
       
 /* Body by Rosi */
+.lesson-wrapper {
+  height: 600px;
+  padding-bottom: 100px;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 50px;
+  padding-bottom: 70px;  
+  color: #5f5d60;
+}
+
+h1{
+    font-size: 35px;
+}
+
+p {
+    color: grey;
+    font-size: 20px;
+}
+
+h2 {
+  color: darkgray;
+  font-size: 20px;  
+}
+
+.lessons {
+    margin: 10px 20px;
+    padding: 10px 5px;
+    display: inline-block;
+}
+
+.lesson {
+  float: left;
+  width: 25%;
+  padding: 10px 0; 
+}
+
+.lesson-icon {
+  position: relative;
+}
+
+img {
+    width: 30%;
+}
+
+.txt-contents {
+  width: 60%;
+  display: inline-block;
+  margin-top: 5px;
+  font-size: 15px;
+  color: #b3aeb5;
+}
 /* End Body */
       
 /* Footer by Wahyu */
