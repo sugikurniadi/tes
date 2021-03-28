@@ -16,6 +16,36 @@ a {
 }
 
 /* Header by Isa */
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "sans-serif";
+}
+li {
+  list-style: none;
+}
+
+.header{
+  background-color:#fff;
+  color:black;
+  height:105px;
+  border:1px solid;
+}
+.header-logo{
+  font-size:65px;
+  padding:2px 10px;
+  float:left;
+  font-style: italic;
+}
+.header-list li{
+  float:left;
+  padding:20px 20px;
+  font-size: 25px
+}
+.header-right{
+    float: right;
+    padding:20px 20px;
+}
 /* End Header */
       
 /* Main by Ahim */
